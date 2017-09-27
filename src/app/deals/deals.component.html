@@ -1,0 +1,18 @@
+<div class="deals-panel">
+  <div class="main-panel-deals">
+    <div class="main-panel-deals-content">
+      <p>last</p>
+      <p>DEALS</p>
+    </div>
+  </div>
+  <div class="deal" *ngFor="let deal of deals">
+    <img class="deal-img" src="assets/img/deal-{{deal.id}}.png" alt="deal-{{deal.id}}">
+    <div class="deal-detail-panel">
+      <div class="deal-detail-content">
+        <p class="deal-price">{{ deal.price }}</p>
+        <p class="deal-label">{{ deal.label }}</p>
+      </div>
+    </div>
+  </div>
+  <div class="results-panel">300+ results</div>
+</div>

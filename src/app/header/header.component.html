@@ -1,0 +1,44 @@
+<div class="header-panel">
+
+  <div class="social-bar">
+    <div class="social-content">
+      <div class="follow-panel">
+        <span>Follow us on : </span>
+        <div class="spacer"></div>
+        <span class="follow-icon icon-facebook"></span>
+        <span class="follow-icon icon-twitter"></span>
+        <span class="follow-icon icon-linkedin"></span>
+        <span class="follow-icon icon-youtube"></span>
+      </div>
+      <div class="spacer"></div>
+      <div class="check-status">
+        <span>Check the status of your car for sale at CarLotz</span>
+        <div class="spacer"></div>
+        <span class="signin-button">SIGN IN</span>
+      </div>
+    </div>
+  </div>
+  <div class="navbar">
+    <div class="navbar-content">
+      <ul class="menu">
+        <li class="logo-carlotz"></li>
+        <li class="menu-item" *ngFor="let menuItem of menuList">{{ menuItem }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-panel">
+    <ul class="search-panel">
+      <li class="search-item" *ngFor="let searchItem of searchList">{{ searchItem }} &#8964;</li>
+    </ul>
+    <div class="search-action-panel">
+      <div class="search-action">
+        <img src="assets/img/icon-search.png" alt="icon-search">
+        <span>SEARCH</span>
+      </div>
+      <div class="refine-action">
+        <img src="assets/img/right-arrow.png" alt="right-arrow">
+        <span>Refine your search</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -5,14 +5,25 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { HeaderModule } from './header/header.module';
+import { DealsModule } from './deals/deals.module';
+import { VideoModule } from './video/video.module';
+import { AdditionalModule } from './additional/additional.module';
+import { FooterModule } from './footer/footer.module';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    HeaderModule,
+    DealsModule,
+    VideoModule,
+    AdditionalModule,
+    FooterModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
