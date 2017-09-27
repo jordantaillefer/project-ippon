@@ -34,6 +34,10 @@
       background-size: 14px;
       background-position: 50%;
       background-repeat: no-repeat;
+      cursor: pointer;
+      &:hover {
+        background-color: $darkgrey;
+      }
 
       &.icon-facebook {
         background-image: url('../../assets/img/icon-facebook.png');
@@ -70,6 +74,10 @@
       justify-content: center;
       margin-left: 8px;
       color: #fff;
+      cursor: pointer;
+      &:hover {
+        background-color: $orange;
+      }
     }
   }
 }
@@ -176,6 +184,7 @@ margin: auto;
     align-items: center;
     justify-content: center;
     background-color: $lightorange;
+    cursor: pointer;
     & img {
       padding-right: 8px;
     }
@@ -186,10 +195,11 @@ margin: auto;
     align-items: center;
     justify-content: center;
     color: white;
+    background-color: $orange;
+    cursor: pointer;
     & img {
       padding-right: 8px;
     }
-    background-color: $orange
 }
 
 @media(min-width: 640px) {
