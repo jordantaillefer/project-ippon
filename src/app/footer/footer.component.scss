@@ -22,6 +22,10 @@
     }
     .footer-menu-item {
       padding: 8px;
+      cursor: pointer;
+      &:hover {
+        color: white;
+      }
     }
   }
   .copyright-panel {
